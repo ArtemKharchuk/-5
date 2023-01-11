@@ -1,0 +1,12 @@
+#include <iostream>
+ 
+int main()
+{
+    int *ptr = new int; 
+    int *otherPtr = ptr; 
+ 
+    delete ptr;ми
+    ptr = 0; 
+ 
+    return 0;
+}
